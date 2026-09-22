@@ -137,9 +137,17 @@
     <section class="card">
       <h1>Domains for Sale</h1>
       <p class="intro">
-        These domains are available for purchase.
+        The following domains are available for purchase.
         Interested in one or more? Send an offer using the form below.
       </p>
+
+      <div class="domains" aria-label="Domains available for sale">
+        <div class="domain">super-intelli.com</div>
+        <div class="domain">super-intelli.net</div>
+        <div class="domain">super-intelli.info</div>
+        <div class="domain">super-intelli.xyz</div>
+        <div class="domain">super-intelli.store</div>
+      </div>
 
       <h2>Contact</h2>
       <p class="small">Your message will be sent directly to the domain owner.</p>
@@ -162,7 +170,15 @@
 
         <div>
           <label for="domain">Domain</label>
-          <input id="domain" name="domain" type="text" required />
+          <select id="domain" name="domain" required>
+            <option value="">Choose a domain</option>
+            <option>super-intelli.com</option>
+            <option>super-intelli.net</option>
+            <option>super-intelli.info</option>
+            <option>super-intelli.xyz</option>
+            <option>super-intelli.store</option>
+            <option>Multiple domains</option>
+          </select>
         </div>
 
         <div>
